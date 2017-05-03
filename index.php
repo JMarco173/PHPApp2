@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PHP Starter Application</title>
+	<title>PHP Tarea</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<table>
 <?php
 $servername = "us-cdbr-iron-east-03.cleardb.net";
 $username = "ad_5519def1673ced4";
 $password = "b40cf849";
+$dbname = "
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
@@ -35,5 +37,6 @@ $sql = "SELECT * from cliente";
   }
   $conn->close();
 ?>
+</table>
 </body>
 </html>
